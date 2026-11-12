@@ -1,0 +1,38 @@
+Farm Plus
+
+Aplicación web interactiva de preguntas y respuestas enfocada en el ámbito farmacéutico, desarrollada para estudiantes de farmacología.
+
+Tecnologías Utilizadas
+Frontend: HTML, CSS, JavaScript
+Backend: PHP
+Base de Datos: MySQL (entorno local XAMPP)
+
+Arquitectura de la Base de Datos
+
+El sistema utiliza una base de datos relacional llamada `farmatriviabdd`. El script de estructura y datos iniciales se encuentra en `db/farmatriviabdd.sql`.
+
+Instalación y Ejecución Local
+Para levantar el proyecto en un entorno local utilizando XAMPP, se debe hacer lo siguiente:
+
+1. Clonar o descargar el repositorio:
+   Colocar la carpeta `FarmaTrivia` dentro del directorio `htdocs` de la instalación de XAMPP (ej. `C:\xampp\htdocs\FarmaTrivia`).
+
+2. Iniciar servicios:
+   Abrir el panel de control de XAMPP e iniciar los módulos Apache y MySQL.
+
+3. Importar la base de datos:
+   * Ingresar a `http://localhost/phpmyadmin`.
+   * Crear una nueva base de datos llamada `farmatriviabdd`.
+   * Seleccionar la base de datos, ir a la pestaña Importar, elegir el archivo `db/farmatriviabdd.sql` y hacer clic en Continuar.
+
+4. Configurar la conexión:
+   * Verificar que las credenciales coincidan con el entorno local:
+     ```php
+     $host = "localhost";
+     $user = "root";
+     $password = "";
+     $dbname = "farmatriviabdd";
+     ```
+
+5. Ejecutar la aplicación:
+   Abrir el navegador y entrar a `http://localhost/FarmaTrivia/HTML/index.html`.
