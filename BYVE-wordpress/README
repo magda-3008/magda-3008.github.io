@@ -1,0 +1,43 @@
+Bosques y Volcanes Expediciones
+
+Sitio web desarrollado con WordPress para una tour operadora dedicada a la promoción de servicios turísticos y destinos naturales.
+
+Descripción
+Proyecto enfocado en construir la presencia digital de la tour operadora, facilitando a los clientes la exploración de sus paquetes, destinos y opciones de contacto de forma clara y atractiva.
+
+El desarrollo se basó en la implementación y adaptación de un tema profesional de WordPress, ajustando su estructura, diseño y funcionalidades a la identidad y necesidades comerciales de la empresa.
+
+Tecnologías y Herramientas
+- WordPress
+- LocalWP
+- HTML, CSS, JavaScript
+- Tema personalizado y plugins de WordPress
+
+Trabajo Realizado
+- Configuración inicial de WordPress.
+- Selección y configuración del tema.
+- Personalización de la interfaz y estilos visuales.
+- Creación y organización de las páginas del sitio.
+- Configuración de plugins.
+- Estructuración del contenido turístico.
+- Adaptación del sitio para dispositivos móviles.
+- Personalización de elementos mediante CSS/HTML cuando fue necesario.
+
+Nota sobre el alcance: El proyecto utiliza un tema y plugins existentes de WordPress. Mi trabajo se centró en la configuración, personalización, organización del contenido y adaptación del sitio a los requerimientos del proyecto.
+
+Capturas del Proyecto
+
+1. Página Principal (Inicio)
+![Inicio](<Capturas del sitio/Inicio.png>)
+![Inicio - Sección 2](<Capturas del sitio/Inicio 2.png>)
+
+2. Paquetes Turísticos
+![Paquetes Turísticos](<Capturas del sitio/Paquetes turísticos.png>)
+![Paquetes Turísticos - Detalle](<Capturas del sitio/Paquetes turísticos 2.png>)
+
+3. Acerca de Nosotros y Página Informativa
+![Acerca de Nosotros](<Capturas del sitio/Acerca de nosotros.png>)
+![Página Informativa](<Capturas del sitio/Página informativa.png>)
+
+4. Contacto
+![Contacto](<Capturas del sitio/Contacto.png>)
