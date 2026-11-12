@@ -4,7 +4,8 @@ Ingeniera en Sistemas recién egresada, enfocada en desarrollo web, diseño de b
 
 Visita mi portafolio web en vivo: [magda-3008.github.io](https://magda-3008.github.io)
 
-Proyectos 
+Proyectos:
+
 Aquí se encuentra una muestra de los proyectos que he desarrollado y desplegado:
 
 Farm Plus / FarmaTrivia: 
@@ -13,12 +14,18 @@ Aplicación web interactiva de trivia enfocada en el área farmacéutica con ló
 Bosques y Volcanes Expediciones: 
 Sitio web turístico desarrollado para una tour operadora local. | WordPress, HTML5, CSS3, JavaScript | [Ver carpeta](./BYVE-wordpress) |
 
-Stack Tecnológico
+Stack Tecnológico:
+
 Frontend: HTML, CSS, JavaScript, Bootstrap 
+
 Backend: PHP, Node.js, Express
+
 Bases de Datos: MySQL, PostgreSQL
+
 CMS & Herramientas: WordPress, Git, GitHub, XAMPP, LocalWP
 
-Contacto
+Contacto:
+
 GitHub: [@magda-3008](https://github.com/magda-3008)
+
 Correo: magdaverocas@gmail.com
