@@ -12,7 +12,7 @@ Farm Plus / FarmaTrivia:
 Aplicación web interactiva de trivia enfocada en el área farmacéutica con lógica dinámica y gestión de datos. | PHP, MySQL, JavaScript, HTML, CSS | [Ver carpeta](./FarmaTrivia)|
 
 Bosques y Volcanes Expediciones: 
-Sitio web turístico desarrollado para una tour operadora local. | WordPress, HTML5, CSS3, JavaScript | [Ver carpeta](./BYVE-wordpress) |
+Sitio web turístico desarrollado para una tour operadora local. | WordPress, HTML, CSS, JavaScript | [Ver carpeta](./BYVE-wordpress) |
 
 Stack Tecnológico:
 
