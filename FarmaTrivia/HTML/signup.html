@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PharmaTrivia</title>
+    <link rel="shortcut icon" href="../Resource/LogoPNG.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="../CSS/StylesLogin.css" />
+  </head>
+  <body>
+    <form id="signupForm">
+      <h2 class="titt"><strong>Crea tu cuenta</strong></h2>
+
+      <label for="usuario">
+        <input type="text" placeholder="👤Usuario" id="usuario" required />
+      </label>
+
+      <label for="correo">
+        <input
+          type="email"
+          placeholder="✉️Correo electrónico"
+          id="correo"
+          required />
+      </label>
+
+      <label for="clave" class="password-container">
+        <input type="password" placeholder="🔒Contraseña" id="clave" required />
+        <i class="bi bi-eye" id="togglePassword"></i>
+      </label>
+
+      <p id="registro-message"></p>
+
+      <input type="submit" value="Registrarse" class="ac" />
+
+      <p class="text">
+        ¿Ya tienes cuenta?
+        <a href="login.html" class="link">Inicia sesión aquí</a>
+      </p>
+    </form>
+
+    <script src="../JS/CodeSignUp.js"></script>
+  </body>
+</html>

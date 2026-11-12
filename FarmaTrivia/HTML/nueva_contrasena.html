@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Farm Plus</title>
+
+    <link rel="stylesheet" href="../CSS/StylesLogin.css" />
+    <link rel="shortcut icon" href="../Resource/LogoPNG.png" />
+    <link rel="stylesheet" href="../CSS/StylesCambioContra.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="titt" style="text-align: center; color: #8e0028">
+        <strong>Nueva Contraseña</strong>
+      </h2>
+
+      <div id="usuarioInfo" class="user-info" style="display: none">
+        Hola, <strong id="nombreUsuario"></strong>
+      </div>
+
+      <div id="mensaje" class="message" style="display: none"></div>
+
+      <div id="contenedorFormulario" style="display: none">
+        <p>Crea tu nueva contraseña:</p>
+
+        <form id="formNuevaContrasena">
+          <label for="nueva_contrasena" class="password-container">
+            <input
+              type="password"
+              placeholder="🔒 Nueva contraseña"
+              id="nueva_contrasena"
+              name="nueva_contrasena"
+              required
+              minlength="6" />
+
+            <i class="bi bi-eye" id="togglePassword1"></i>
+          </label>
+
+          <label for="confirmar_contrasena" class="password-container">
+            <input
+              type="password"
+              placeholder="🔒 Confirmar contraseña"
+              id="confirmar_contrasena"
+              name="confirmar_contrasena"
+              required
+              minlength="6" />
+
+            <i class="bi bi-eye" id="togglePassword2"></i>
+          </label>
+
+          <button type="submit" class="ac">Actualizar Contraseña</button>
+        </form>
+      </div>
+
+      <p class="text">
+        <a href="login.html" class="link"> Volver al login </a>
+
+        <br />
+
+        <a
+          href="olvide_contrasena.html"
+          id="nuevoEnlace"
+          class="link"
+          style="display: none">
+          Solicitar nuevo enlace
+        </a>
+      </p>
+    </div>
+
+    <script src="../JS/CodeCambioContra.js"></script>
+  </body>
+</html>

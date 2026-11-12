@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Farm Plus</title>
+
+    <link rel="stylesheet" href="../CSS/StylesLogin.css" />
+    <link rel="shortcut icon" href="../Resource/LogoPNG.png" />
+    <link rel="stylesheet" href="../CSS/StylesOlvidoContra.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="titt" style="text-align: center; color: #8e0028">
+        <strong>Recuperar contraseña</strong>
+      </h2>
+
+      <p>Ingresa tu email para recuperar tu contraseña:</p>
+
+      <div id="mensaje" class="message" style="display: none"></div>
+
+      <div id="contenedorEnlace" style="display: none">
+        <p>
+          <strong> Enlace de recuperación: </strong>
+        </p>
+
+        <a id="enlaceRecuperacion" class="enlace-local" href="#"></a>
+
+        <div class="info-local">
+          Este enlace es válido durante
+          <strong>1 hora</strong>.
+        </div>
+      </div>
+
+      <form id="formRecuperacion">
+        <label for="email">
+          <input
+            type="email"
+            placeholder="📧 Email registrado"
+            id="email"
+            name="email"
+            required />
+        </label>
+
+        <button type="submit" class="ac">Enviar Enlace de Recuperación</button>
+      </form>
+
+      <p class="text">
+        <a href="login.html" class="link"> Volver al login </a>
+      </p>
+    </div>
+
+    <script src="../JS/CodeOlvidoContra.js"></script>
+  </body>
+</html>

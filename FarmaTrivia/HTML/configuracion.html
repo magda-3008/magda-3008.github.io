@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Farm Plus</title>
+    <link rel="shortcut icon" href="../Resource/LogoPNG.png" />
+    <link rel="stylesheet" href="../CSS/Styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <header class="header-flex">
+      <div class="header-left">
+        <img src="../Resource/logo.png" alt="Logo Farm Plus" class="logo" />
+
+        <h2>Farm Plus</h2>
+      </div>
+
+      <div class="header-right">
+        <p>
+          <strong>Aprender es vivir</strong>
+        </p>
+      </div>
+    </header>
+
+    <nav class="custom-nav">
+      <a href="perfil.html"> Mi Perfil </a>
+
+      <a href="niveles.html"> Niveles </a>
+    </nav>
+
+    <main class="container mt-4">
+      <div id="mensaje" class="alert text-center" style="display: none"></div>
+
+      <div class="text-center mb-4">
+        <h4>Configuración de cuenta</h4>
+      </div>
+
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center">
+            Cambiar foto de perfil
+          </h5>
+
+          <form id="formFoto" enctype="multipart/form-data">
+            <div class="text-center">
+              <img
+                id="preview"
+                src="../Resource/user.webp"
+                alt="Vista previa"
+                class="img-thumbnail"
+                style="width: 220px; height: auto" />
+            </div>
+
+            <div class="form-group">
+              <label for="foto_perfil" style="text-align: center">
+                Selecciona una nueva foto:
+              </label>
+
+              <input
+                type="file"
+                name="foto_perfil"
+                id="foto_perfil"
+                accept="image/*"
+                class="form-control-file" />
+            </div>
+
+            <div class="text-center mt-3">
+              <button type="submit" class="btn btn-primary">
+                Actualizar foto
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Cambiar contraseña</h5>
+
+          <form id="formContrasena">
+            <div class="form-group">
+              <label for="nueva_contrasena"> Nueva contraseña: </label>
+
+              <input
+                type="password"
+                name="nueva_contrasena"
+                id="nueva_contrasena"
+                class="form-control"
+                placeholder="********" />
+            </div>
+
+            <div class="text-center mt-3">
+              <button type="submit" class="btn btn-success">
+                Actualizar contraseña
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-center mt-4">
+      <br />
+      <p>© 2025 Farm Plus - Proyecto educativo de farmacología</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+    <script src="../JS/Codeconfiguracion.js"></script>
+  </body>
+</html>
