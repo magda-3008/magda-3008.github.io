@@ -7,8 +7,11 @@ Visita mi portafolio web en vivo: [magda-3008.github.io](https://magda-3008.gith
 Proyectos 
 Aquí se encuentra una muestra de los proyectos que he desarrollado y desplegado:
 
-Farm Plus / FarmaTrivia: Aplicación web interactiva de trivia enfocada en el área farmacéutica con lógica dinámica y gestión de datos. | PHP, MySQL, JavaScript, HTML, CSS | [Ver carpeta](./FarmaTrivia)|
-Bosques y Volcanes Expediciones: Sitio web turístico desarrollado para una tour operadora local. | WordPress, HTML5, CSS3, JavaScript | [Ver carpeta](./BYVE-wordpress) |
+Farm Plus / FarmaTrivia: 
+Aplicación web interactiva de trivia enfocada en el área farmacéutica con lógica dinámica y gestión de datos. | PHP, MySQL, JavaScript, HTML, CSS | [Ver carpeta](./FarmaTrivia)|
+
+Bosques y Volcanes Expediciones: 
+Sitio web turístico desarrollado para una tour operadora local. | WordPress, HTML5, CSS3, JavaScript | [Ver carpeta](./BYVE-wordpress) |
 
 Stack Tecnológico
 Frontend: HTML, CSS, JavaScript, Bootstrap 
